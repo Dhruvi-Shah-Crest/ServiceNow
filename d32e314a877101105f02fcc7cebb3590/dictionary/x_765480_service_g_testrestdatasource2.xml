@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TestRestDataSource2" max_length="40" name="x_765480_service_g_testrestdatasource2" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=final testing" label="final testing" max_length="40" name="u_final_testing" type="string"/>
+    </element>
+</database>

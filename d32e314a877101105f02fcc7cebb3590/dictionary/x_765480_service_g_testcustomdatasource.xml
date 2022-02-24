@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="testcustomdatasource" max_length="40" name="x_765480_service_g_testcustomdatasource" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=computer_name" label="computer_name" max_length="128" name="u_computer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=fqdn" label="fqdn" max_length="512" name="u_fqdn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ip" label="ip" max_length="40" name="u_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mac" label="mac" max_length="40" name="u_mac" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="128" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=os" label="os" max_length="256" name="u_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=version" label="version" max_length="128" name="u_version" type="string"/>
+    </element>
+</database>

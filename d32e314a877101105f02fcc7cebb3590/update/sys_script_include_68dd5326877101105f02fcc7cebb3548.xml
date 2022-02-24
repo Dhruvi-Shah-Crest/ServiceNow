@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_765480_service_g.DemoDataImport</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DemoDataImport</name>
+        <script><![CDATA[var DemoDataImport = Class.create();
+DemoDataImport.prototype = {
+    initialize: function() {
+        //
+    },
+
+
+    executeImport: function(import_set_table) {
+        this.initializeColumns(import_set_table);
+        var responseObject = this.executeRequest();
+        for (var i = 0; i < responseObject.results.length; i++) {
+            var result = responseObject.results[i];
+            this.mapComputer(import_set_table, result);
+            this.mapInterfaces(import_set_table, result);
+            this.mapSoftware(import_set_table, result);
+        }
+    },
+    getMidServer: function() {
+        var gr = new GlideRecord('ecc_agent');
+        gr.addEncodedQuery('statusSTARTSWITHup^validatedINtrue');
+        gr.setLimit(1);
+        gr.query();
+        if (gr.next()) {
+			gs.info(gr.name);
+            return gr.name;
+        } else {
+            return null;
+        }
+
+
+    },
+    initializeColumns: function(import_set_table) {
+        import_set_table.addColumn("name", 128);
+        import_set_table.addColumn("fqdn", 512);
+        import_set_table.addColumn("id", 40);
+        import_set_table.addColumn("ip", 40);
+        import_set_table.addColumn("location", 40);
+        import_set_table.addColumn("mac", 40);
+        import_set_table.addColumn("os", 256);
+        import_set_table.addColumn("version", 128);
+        import_set_table.addColumn("computer_name", 128);
+    },
+    executeRequest: function() {
+        var mid = this.getMidServer();
+        if (!gs.nil(mid)) {
+
+            var restMessage = new sn_ws.RESTMessageV2('TestCustomRestMessage', 'Default GET');
+            restMessage.setMIDServer(mid);
+			gs.info("mid server set");
+            var response = restMessage.execute();
+            var responseBody = response.getBody();
+            var httpResponseStatus = response.getStatusCode();
+            var responseObject = JSON.parse(responseBody);
+            return responseObject;
+        } else {
+            gs.error('No MID server up and validated');
+        }
+    },
+    mapComputer: function(import_set_table, result) {
+        var computer = {
+            "type": "computer"
+        };
+        computer.id = "" + parseInt(result.id);
+        computer.name = result.name;
+        computer.fqdn = result.fqdn;
+        computer.ip = result.ip;
+        computer.location = result.location;
+        computer.mac = result.mac;
+        computer.os = result.os;
+        computer.computer_name = result.name;
+        import_set_table.insert(computer);
+    },
+    mapInterfaces: function(import_set_table, result) {
+        //Insert rows for each interface
+        for (var i = 0; i < result.interfaces.length; i++) {
+            var netInterface = result.interfaces[i];
+            var networkCard = {
+                "type": "network"
+            };
+            networkCard.ip = netInterface.ip;
+            networkCard.mac = netInterface.mac;
+            networkCard.name = netInterface.name;
+            //Preserve the computer id in each row
+            networkCard.id = "" + parseInt(result.id);
+            networkCard.computer_name = result.name;
+            import_set_table.insert(networkCard);
+        }
+    },
+    mapSoftware: function(import_set_table, result) {
+        //Insert rows for each software
+        if (result.software) {
+            for (var i = 0; i < result.software.length; i++) {
+                var software = result.software[i];
+                var softwareObj = {
+                    "type": "software"
+                };
+                softwareObj.name = software.name;
+                softwareObj.version = software.version;
+                //Preserve the computer id in each row
+                softwareObj.id = "" + parseInt(result.id);
+                softwareObj.computer_name = result.name;
+                import_set_table.insert(softwareObj);
+            }
+        }
+    },
+    type: 'DemoDataImport'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-24 06:37:21</sys_created_on>
+        <sys_id>68dd5326877101105f02fcc7cebb3548</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DemoDataImport</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>sys_script_include_68dd5326877101105f02fcc7cebb3548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-24 07:46:01</sys_updated_on>
+    </sys_script_include>
+</record_update>
