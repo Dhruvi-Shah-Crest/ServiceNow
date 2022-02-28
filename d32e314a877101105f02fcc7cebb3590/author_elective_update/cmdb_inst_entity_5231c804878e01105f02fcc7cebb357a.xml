@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Import</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path/>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:53:59</sys_created_on>
+        <sys_id>5231c804878e01105f02fcc7cebb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SampleETL2">8021c004878e01105f02fcc7cebb35f4</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>cmdb_inst_entity_5231c804878e01105f02fcc7cebb357a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:53:59</sys_updated_on>
+        <table>x_765480_service_g_testcustomdatasource</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</application>
+        <file_path/>
+        <instance_id>200e6916dbd1c910e62f3feb68961957</instance_id>
+        <instance_name>dev122521</instance_name>
+        <name>cmdb_inst_entity_5231c804878e01105f02fcc7cebb357a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Import</name><parent_entity/><parent_id_field/><path/><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-28 05:53:59</sys_created_on><sys_id>5231c804878e01105f02fcc7cebb357a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import</sys_name><sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package><sys_policy/><sys_rte_eb_definition display_value="SampleETL2">8021c004878e01105f02fcc7cebb35f4</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope><sys_update_name>cmdb_inst_entity_5231c804878e01105f02fcc7cebb357a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-28 05:53:59</sys_updated_on><table>x_765480_service_g_testcustomdatasource</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>1632757047</payload_hash>
+        <record_name>Import</record_name>
+        <reverted_from/>
+        <source>4d4cdc32873501105f02fcc7cebb35f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:53:59</sys_created_on>
+        <sys_id>5a31c804878e01105f02fcc7cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3ee48a390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:53:59</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>9231c804518e01109c0368bb0dc2b47b</update_guid>
+        <update_guid_history>9231c804518e01109c0368bb0dc2b47b:1632757047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Import">8364c0c4878e01105f02fcc7cebb350c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:07:58</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>1612f451cf9849b195f8d5ea131e6bf9</sys_id>
+        <sys_metadata>5231c804878e01105f02fcc7cebb357a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_scope_delete display_value="">4b384229638d46a7af809c57391d4de9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_5231c804878e01105f02fcc7cebb357a</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_5231c804878e01105f02fcc7cebb357a">5a31c804878e01105f02fcc7cebb357b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

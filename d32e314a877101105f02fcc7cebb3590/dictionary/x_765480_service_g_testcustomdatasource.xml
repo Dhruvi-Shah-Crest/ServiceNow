@@ -4,10 +4,14 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=fqdn" label="fqdn" max_length="512" name="u_fqdn" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ip" label="ip" max_length="40" name="u_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Inventory Update" label="Last Inventory Update" max_length="40" name="u_last_inventory_update" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=mac" label="mac" max_length="40" name="u_mac" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="128" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number of Processors" label="Number of Processors " max_length="40" name="u_number_of_processors" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=os" label="os" max_length="256" name="u_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Processor Type" label="Processor Type" max_length="40" name="u_processor_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total RAM" label="Total RAM" max_length="40" name="u_total_ram" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="u_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=version" label="version" max_length="128" name="u_version" type="string"/>
     </element>

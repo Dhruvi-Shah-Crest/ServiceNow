@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SampleETL</name>
+        <properties/>
+        <robust_transform_engine display_value="SampleETL">b14f33f387bd01105f02fcc7cebb35df</robust_transform_engine>
+        <source_table>x_765480_service_g_testcustomdatasource</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:45:29</sys_created_on>
+        <sys_id>fd4f33f387bd01105f02fcc7cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SampleETL</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_fd4f33f387bd01105f02fcc7cebb35e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:45:29</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</application>
+        <file_path/>
+        <instance_id>200e6916dbd1c910e62f3feb68961957</instance_id>
+        <instance_name>dev122521</instance_name>
+        <name>sys_robust_import_set_transformer_fd4f33f387bd01105f02fcc7cebb35e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>100</batch_size><description/><name>SampleETL</name><properties/><robust_transform_engine display_value="SampleETL">b14f33f387bd01105f02fcc7cebb35df</robust_transform_engine><source_table>x_765480_service_g_testcustomdatasource</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-28 05:45:29</sys_created_on><sys_id>fd4f33f387bd01105f02fcc7cebb35e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SampleETL</sys_name><sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope><sys_update_name>sys_robust_import_set_transformer_fd4f33f387bd01105f02fcc7cebb35e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-28 05:45:29</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>1366880316</payload_hash>
+        <record_name>SampleETL</record_name>
+        <reverted_from/>
+        <source>4d4cdc32873501105f02fcc7cebb35f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:45:29</sys_created_on>
+        <sys_id>b14f33f387bd01105f02fcc7cebb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3edcc1990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:45:29</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>f94f33f3aabd01107d0bea11a30446e2</update_guid>
+        <update_guid_history>f94f33f3aabd01107d0bea11a30446e2:1366880316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:52:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>77c0386f60204ed3be7ad8ac8256e131</sys_id>
+        <sys_metadata>fd4f33f387bd01105f02fcc7cebb35e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SampleETL</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_scope_delete display_value="">4b384229638d46a7af809c57391d4de9</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_fd4f33f387bd01105f02fcc7cebb35e0</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_fd4f33f387bd01105f02fcc7cebb35e0">b14f33f387bd01105f02fcc7cebb35e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:52:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

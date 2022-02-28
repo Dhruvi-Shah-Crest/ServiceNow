@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application">
+    <cmdb_inst_application action="INSERT_OR_UPDATE">
+        <discovery_source>SG-Test</discovery_source>
+        <name>testETL3</name>
+        <sys_class_name>cmdb_inst_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:22:19</sys_created_on>
+        <sys_id>a9b7c848878e01105f02fcc7cebb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testETL3</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>cmdb_inst_application_a9b7c848878e01105f02fcc7cebb355f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:22:19</sys_updated_on>
+    </cmdb_inst_application>
+</record_update>

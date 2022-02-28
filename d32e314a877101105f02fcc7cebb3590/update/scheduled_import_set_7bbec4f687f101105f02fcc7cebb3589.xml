@@ -2,7 +2,7 @@
     <scheduled_import_set action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
-        <concurrent_import>false</concurrent_import>
+        <concurrent_import>true</concurrent_import>
         <condition/>
         <conditional>false</conditional>
         <data_source display_value="TestRestDataSource2">9b819fd2873141105f02fcc7cebb3530</data_source>
@@ -43,14 +43,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-24 09:41:59</sys_created_on>
         <sys_id>7bbec4f687f101105f02fcc7cebb3589</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>TestRestScheduleImport</sys_name>
         <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
         <sys_update_name>scheduled_import_set_7bbec4f687f101105f02fcc7cebb3589</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-24 09:41:59</sys_updated_on>
+        <sys_updated_on>2022-02-24 12:48:25</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_import_set>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <is_conditional>false</is_conditional>
+        <name>impTotemp</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="Import">a6c74c48878e01105f02fcc7cebb35f0</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:22:40</sys_created_on>
+        <sys_id>2ec74c48878e01105f02fcc7cebb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impTotemp</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SampleETL3">a9b70c48878e01105f02fcc7cebb35eb</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_2ec74c48878e01105f02fcc7cebb35f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:22:40</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="temp">66c74c48878e01105f02fcc7cebb35f2</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</application>
+        <file_path/>
+        <instance_id>200e6916dbd1c910e62f3feb68961957</instance_id>
+        <instance_name>dev122521</instance_name>
+        <name>sys_rte_eb_entity_mapping_2ec74c48878e01105f02fcc7cebb35f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;impTotemp&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="Import"&gt;a6c74c48878e01105f02fcc7cebb35f0&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-28 06:22:40&lt;/sys_created_on&gt;&lt;sys_id&gt;2ec74c48878e01105f02fcc7cebb35f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;impTotemp&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g"&gt;d32e314a877101105f02fcc7cebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SampleETL3"&gt;a9b70c48878e01105f02fcc7cebb35eb&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Service Graph Connector for Company ABC"&gt;d32e314a877101105f02fcc7cebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_2ec74c48878e01105f02fcc7cebb35f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-28 06:22:40&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="temp"&gt;66c74c48878e01105f02fcc7cebb35f2&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1671575521</payload_hash>
+        <record_name>impTotemp</record_name>
+        <reverted_from/>
+        <source>4d4cdc32873501105f02fcc7cebb35f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:22:40</sys_created_on>
+        <sys_id>66c74c48878e01105f02fcc7cebb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3efece630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:22:40</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>aec74c48e28e011067bae445e52492f4</update_guid>
+        <update_guid_history>aec74c48e28e011067bae445e52492f4:-1671575521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:36:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>3d580bbab54740a49ed04bb1bd034224</sys_id>
+        <sys_metadata>2ec74c48878e01105f02fcc7cebb35f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impTotemp</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_scope_delete display_value="">4b384229638d46a7af809c57391d4de9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_2ec74c48878e01105f02fcc7cebb35f3</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_2ec74c48878e01105f02fcc7cebb35f3">66c74c48878e01105f02fcc7cebb35f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:36:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application_feed">
+    <cmdb_inst_application_feed action="DELETE">
+        <active>true</active>
+        <cmdb_inst_application display_value="testETL2">7711c804878e01105f02fcc7cebb351b</cmdb_inst_application>
+        <description/>
+        <name>SampleETL2</name>
+        <sys_class_name>cmdb_inst_application_feed</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:53:33</sys_created_on>
+        <sys_data_source display_value="testcustomdatasource">c66d1fe2877101105f02fcc7cebb3549</sys_data_source>
+        <sys_id>8021c004878e01105f02fcc7cebb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SampleETL2</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_update_name>cmdb_inst_application_feed_8021c004878e01105f02fcc7cebb35f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:53:33</sys_updated_on>
+    </cmdb_inst_application_feed>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</application>
+        <file_path/>
+        <instance_id>200e6916dbd1c910e62f3feb68961957</instance_id>
+        <instance_name>dev122521</instance_name>
+        <name>cmdb_inst_application_feed_8021c004878e01105f02fcc7cebb35f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application_feed"><cmdb_inst_application_feed action="INSERT_OR_UPDATE"><active>true</active><cmdb_inst_application display_value="testETL2">7711c804878e01105f02fcc7cebb351b</cmdb_inst_application><description/><name>SampleETL2</name><sys_class_name>cmdb_inst_application_feed</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-28 05:53:33</sys_created_on><sys_data_source display_value="testcustomdatasource">c66d1fe2877101105f02fcc7cebb3549</sys_data_source><sys_id>8021c004878e01105f02fcc7cebb35f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SampleETL2</sys_name><sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope><sys_update_name>cmdb_inst_application_feed_8021c004878e01105f02fcc7cebb35f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-28 05:53:33</sys_updated_on></cmdb_inst_application_feed></record_update>]]></payload>
+        <payload_hash>-512674005</payload_hash>
+        <record_name>SampleETL2</record_name>
+        <reverted_from/>
+        <source>4d4cdc32873501105f02fcc7cebb35f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 05:53:33</sys_created_on>
+        <sys_id>0c21c004878e01105f02fcc7cebb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3ee4254d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 05:53:33</sys_updated_on>
+        <type>CMDB Integration Studio Application Data</type>
+        <update_guid>4421c0042d8e0110df9f6a16fa6336f5</update_guid>
+        <update_guid_history>4421c0042d8e0110df9f6a16fa6336f5:-512674005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SampleETL2">8b64c0c4878e01105f02fcc7cebb3515</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 06:07:58</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_application_feed">cmdb_inst_application_feed</sys_db_object>
+        <sys_id>0561aca4ea474df385aeaa7d8652dd19</sys_id>
+        <sys_metadata>8021c004878e01105f02fcc7cebb35f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SampleETL2</sys_name>
+        <sys_package display_value="Service Graph Connector for Company ABC" source="x_765480_service_g">d32e314a877101105f02fcc7cebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Company ABC">d32e314a877101105f02fcc7cebb3590</sys_scope>
+        <sys_scope_delete display_value="">4b384229638d46a7af809c57391d4de9</sys_scope_delete>
+        <sys_update_name>cmdb_inst_application_feed_8021c004878e01105f02fcc7cebb35f4</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_application_feed_8021c004878e01105f02fcc7cebb35f4">0c21c004878e01105f02fcc7cebb35f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 06:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
